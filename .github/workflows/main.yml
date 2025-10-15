@@ -143,9 +143,9 @@ jobs:
           sudo apt-get install gcc-aarch64-linux-gnu gcc-arm-linux-gnueabihf -y
           sudo apt install wget
           sudo apt-get install xz-utils
-          wget https://github.com/llvm/llvm-project/releases/download/llvmorg-12.0.1/clang+llvm-12.0.1-x86_64-linux-gnu-ubuntu-16.04.tar.xz
+          wget https://github.com/llvm/llvm-project/releases/download/llvmorg-14.0.6/clang+llvm-14.0.6-x86_64-linux-gnu-rhel-8.4.tar.xz
           mkdir xinran
-          tar -xvf clang+llvm-12.0.1-x86_64-linux-gnu-ubuntu-16.04.tar.xz -C xinran --strip-components=1
+          tar -xvf clang+llvm-14.0.6-x86_64-linux-gnu-rhel-8.4.tar.xz -C xinran --strip-components=1
           ls
           cd ./xinran
           CLANG_PATH=$(pwd)/bin
